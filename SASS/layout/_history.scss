@@ -1,0 +1,22 @@
+.history{
+    padding-top: 84px;
+    padding-bottom: 176px;
+    background-image: url(../images/history.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hestory__title{
+    @extend %sextion-title;
+    margin-bottom: 10px
+}
+
+.history__first{
+    @extend %description-text;
+    color: #6F6F6F;
+}
+
+.history__second{
+    @extend %description-text;
+    margin-top: 11px;
+}
